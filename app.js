@@ -35,6 +35,8 @@ let detex=(inc*0.1);
 
 let wtex=(inc - detex);
 
+let all=(exp+detex);
+
 
 let bal=( wtex - exp);
 
@@ -49,6 +51,8 @@ document.writeln("Total Income : $" + inc + "<br>");
 document.writeln(exps + exp  + " (expenses) " + " <br>");
 
 document.writeln( "Tex Deducted : $" + detex + "<br>");
+
+document.writeln( " All expenses : $" + all + "<br>");
 
 document.writeln("Remaining Balance : $" +bal+ "<br>")
 
